@@ -1,0 +1,18 @@
+require: rubocop-rspec
+
+AllCops:
+  TargetRubyVersion: 2.3
+  Exclude:
+    - '.*'
+    - '**/coverage/'
+    - 'bin/**/*'
+    - 'config/routes.rb'
+    - 'db/**/*'
+    - 'log/**/*'
+    - 'org/**/*'
+    - 'public/**/*'
+    - 'tmp/**/*'
+    - 'vendor/**/*'
+    
+Metrics/LineLength:
+  Max: 120

@@ -508,13 +508,13 @@ Translations of the guide are available in the following languages:
   end
   ```
 
-* <a name="no-trailing-params-comma"></a>
-  Avoid comma after the last parameter in a method call, especially when the
-  parameters are not on separate lines.
-<sup>[[link](#no-trailing-params-comma)]</sup>
+* <a name="trailing-params-comma"></a>
+  Prefer a comma after the last parameter in a method call, when parameters are on separate lines.
+  When commas are on the same line, do not use a trailing comma after the last parameter.
+<sup>[[link](#trailing-params-comma)]</sup>
 
   ```ruby
-  # bad - easier to move/add/remove parameters, but still not preferred
+  # good - easier to move/add/remove parameters
   some_method(
     size,
     count,

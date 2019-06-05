@@ -702,9 +702,9 @@ Translations of the guide are available in the following languages:
     Use [YARD][yard] and its conventions for API documentation.
 <sup>[[link](#api-documentation)]</sup>
 
-* <a name="120-character-limits"></a>
-  Limit lines to 120 characters.
-<sup>[[link](#120-character-limits)]</sup>
+* <a name="80-character-limits"></a>
+  Limit lines to 120 characters. Default was 80.
+<sup>[[link](#80-character-limits)]</sup>
 
 * <a name="no-trailing-whitespace"></a>
   Avoid trailing whitespace.

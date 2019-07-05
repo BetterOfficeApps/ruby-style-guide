@@ -28,4 +28,6 @@ Metrics/MethodLength:
 
 Style/Documentation:
   Enabled: false
- 
+
+Style/StringLiterals:
+  Enabled: false
